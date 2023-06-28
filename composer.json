@@ -11,11 +11,15 @@
     }
   ],
   "require": {
-    "php": ">=8.1"
+    "php": ">=8.1",
+    "phpunit/phpunit": "^10.2"
   },
   "autoload": {
     "psr-4": {
       "Zenithies\\Toolkit\\ReadKey\\": "src/Zenithies/Toolkit/ReadKey"
-    }
+    },
+    "files": [
+      "src/helpers.php"
+    ]
   }
 }
